@@ -7,7 +7,7 @@ import styles from "./navigation.module.css";
 function Navigation() {
   return (
   <div className={styles.navigation} >
-      <h1>Navigation </h1>
+      <h1>My App </h1>
       <div className={styles.navigationButtonContainer}>
           <Link to='/'>
           <button className={styles.navigationButton}>Home</button>
@@ -15,6 +15,10 @@ function Navigation() {
         <Link to='/contact'>
         <button className={styles.navigationButton}>Contact</button>
         </Link>
+        <Link to='/about'>
+        <button className={styles.navigationButton}>About Us</button>
+        </Link>
+         
          
       </div>
      
